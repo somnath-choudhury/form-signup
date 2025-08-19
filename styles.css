@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: bisque;
+    margin: 0;
+    font-size: 12px;
+}
+
+form {
+    width: 498px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.email,
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+
+input {
+    background-color: white;
+    width: 360px;
+    /* Fixed width */
+    height: 18px;
+    /* Fixed height */
+    border-radius: 5px;
+    border: 1px solid black;
+    /* font-size: 12px; */
+    /* font-weight: 400; */
+    color: black;
+    margin-top: 4px;
+    padding: 5px;
+}
+
+.submit-btn button {
+    width: 128px;
+    height: 27px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
